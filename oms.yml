@@ -1,7 +1,7 @@
 omg: 1
 lifecycle:
   startup:
-    command: ["machinebox-textbox"]
+    command: ['machinebox-textbox']
 info:
   version: 1.0.0
   title: Machinebox Textbox
@@ -26,19 +26,23 @@ actions:
         type: string
         in: requestBody
         required: true
-        help: The address for client to connect eg- "http://IP-of-docker-machine:8080" with port.
+        help:
+          The address for client to connect eg-
+          "http://IP-of-docker-machine:8080" with port.
       text:
         type: string
         in: requestBody
         required: true
         help: The text to analyze.
     output:
-      type: map
+      type: object
       contentType: application/json
       properties:
-        sentences: 
-          help: List of sentences and its detail analysis report includes type of word, text index etc.
+        sentences:
+          help:
+            List of sentences and its detail analysis report includes type of
+            word, text index etc.
           type: list
         keywords:
-          help: List of all keywords. 
+          help: List of all keywords.
           type: list
