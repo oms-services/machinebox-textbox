@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/heaptracetechnology/machinebox-textbox/route"
+	"github.com/oms-services/machinebox-textbox/route"
 	"log"
 	"net/http"
 )

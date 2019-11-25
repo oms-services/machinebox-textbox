@@ -2,7 +2,7 @@ package route
 
 import (
     "github.com/gorilla/mux"
-    textbox "github.com/heaptracetechnology/machinebox-textbox/textbox"
+    textbox "github.com/oms-services/machinebox-textbox/textbox"
     "log"
     "net/http"
 )
