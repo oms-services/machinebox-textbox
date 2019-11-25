@@ -2,7 +2,7 @@ package textbox
 
 import (
 	"encoding/json"
-	result "github.com/heaptracetechnology/machinebox-textbox/result"
+	result "github.com/oms-services/machinebox-textbox/result"
 	"github.com/machinebox/sdk-go/textbox"
 	"net/http"
 	"os"
